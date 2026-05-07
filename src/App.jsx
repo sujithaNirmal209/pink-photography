@@ -263,13 +263,13 @@ export default function PinkPhotographyWebsite() {
       
       {/* Owner Image */}
       <img
-        src="public/WhatsApp Image 2026-05-07 at 4.12.19 PM.jpeg"
+        src="/WhatsApp Image 2026-05-07 at 4.12.19 PM.jpeg"
         alt="Owner"
         className="w-36 h-36 rounded-full object-cover border-4 border-white shadow-2xl mb-6"
       />
 
       <h4 className="text-3xl font-bold mb-2">
-        Nirmal Photography
+        Nirmal
       </h4>
 
       <p className="text-pink-100 mb-6 text-lg">
