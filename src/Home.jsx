@@ -100,7 +100,7 @@ export default function Home() {
         className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center"
       >
         <img
-          src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop"
+          src="/photo1.jpeg"
           alt="Photographer"
           className="rounded-3xl shadow-2xl h-[500px] w-full object-cover"
         />
