@@ -67,6 +67,11 @@ PinkPhotography Studio 💛`;
           <option>Baby Shoot</option>
           <option>Birthday</option>
 	  <option>Maternity Shoot</option>
+	  <option>Ear Piercing</option>
+	  <option>Puberty Ceremony</option>
+	  <option>House warming</option>
+	  <option>Engagement</option>
+	  <option>Reception</option>
         </select>
 
         {/* DATE */}

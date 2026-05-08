@@ -65,7 +65,7 @@ export default function Home() {
           </h2>
 
           <p className="mt-5 text-lg md:text-2xl text-pink-100">
-            Wedding • Pre Wedding • Maternity • Baby Shoots • Birthday
+            Wedding • Pre Wedding • Maternity • Baby Shoots • Birthday • Puberty • Ear Piercing • House warming • Engagement • Reception
           </p>
 
           <p className="mt-4 text-yellow-200 text-lg md:text-xl font-medium">
