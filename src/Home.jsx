@@ -65,7 +65,7 @@ export default function Home() {
           </h2>
 
           <p className="mt-5 text-lg md:text-2xl text-pink-100">
-            Wedding • Pre Wedding • Maternity • Baby Shoots • Birthday • Puberty • Ear Piercing • House warming • Engagement • Reception
+            • Wedding • Pre Wedding • Maternity • Baby Shoots • Birthday • Puberty • Ear Piercing • House warming • Engagement • Reception
           </p>
 
           <p className="mt-4 text-yellow-200 text-lg md:text-xl font-medium">
@@ -272,6 +272,80 @@ export default function Home() {
 >
   Instagram Booking 📸
 </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+{/* Pricing Section */}
+<section className="py-20 px-6 bg-[#fff0f5]">
+
+  <div className="max-w-6xl mx-auto text-center">
+
+    <h3 className="text-5xl font-bold text-[#d63384] mb-14">
+      Pricing Packages
+    </h3>
+
+    <div className="grid md:grid-cols-3 gap-8">
+
+      {/* Basic Package */}
+      <div className="bg-white p-8 rounded-3xl shadow-xl border border-yellow-200">
+
+        <h4 className="text-3xl font-bold text-[#d63384]">
+          Basic
+        </h4>
+
+        <p className="text-5xl font-bold mt-6 text-gray-800">
+          ₹5,000
+        </p>
+
+        <ul className="mt-6 space-y-3 text-gray-600">
+          <li>1 Hour Shoot</li>
+          <li>20 Edited Photos</li>
+          <li>Outdoor Session</li>
+        </ul>
+
+      </div>
+
+      {/* Premium Package */}
+      <div className="bg-gradient-to-r from-pink-500 to-yellow-400 text-white p-8 rounded-3xl shadow-2xl scale-105">
+
+        <h4 className="text-3xl font-bold">
+          Premium
+        </h4>
+
+        <p className="text-5xl font-bold mt-6">
+          ₹15,000
+        </p>
+
+        <ul className="mt-6 space-y-3">
+          <li>Full Day Coverage</li>
+          <li>100 Edited Photos</li>
+          <li>Cinematic Video</li>
+        </ul>
+
+      </div>
+
+      {/* Luxury Package */}
+      <div className="bg-white p-8 rounded-3xl shadow-xl border border-yellow-200">
+
+        <h4 className="text-3xl font-bold text-[#d63384]">
+          Luxury
+        </h4>
+
+        <p className="text-5xl font-bold mt-6 text-gray-800">
+          ₹30,000
+        </p>
+
+        <ul className="mt-6 space-y-3 text-gray-600">
+          <li>Wedding Package</li>
+          <li>Album Included</li>
+          <li>Drone Shoot</li>
+        </ul>
 
       </div>
 
