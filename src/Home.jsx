@@ -100,7 +100,7 @@ export default function Home() {
         className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center"
       >
         <img
-          src="/rose.jpeg"
+          src="/c1.jpeg"
           alt="Photographer"
           className="rounded-3xl shadow-2xl h-[500px] w-full object-cover"
         />
