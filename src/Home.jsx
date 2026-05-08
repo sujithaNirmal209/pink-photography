@@ -4,17 +4,17 @@ export default function Home() {
   const gallery = [
     {
       title: "Wedding Moments",
-      image: "/marriage.jpeg",
+      image: "/vm.jpeg",
       type: "wedding",
     },
     {
       title: "PreWedding Shoots",
-      image: "/couple.jpeg",
+      image: "/pw.jpeg",
       type: "couple",
     },
     {
       title: "Baby Photography",
-      image: "/baby.jpeg",
+      image: "/b1.jpeg",
       type: "baby",
     },
     {
@@ -24,7 +24,7 @@ export default function Home() {
     },
     {
       title: "Maternity Shoots",
-      image: "/maternity.jpeg",
+      image: "/bs1.jpeg",
       type: "maternity",
     },
   ];
@@ -100,7 +100,7 @@ export default function Home() {
         className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center"
       >
         <img
-          src="/photo1.jpeg"
+          src="/rose.jpeg"
           alt="Photographer"
           className="rounded-3xl shadow-2xl h-[500px] w-full object-cover"
         />
@@ -116,7 +116,7 @@ export default function Home() {
         </div>
       </section>
 
-    {/* Gallery */}
+   {/* Gallery */}
 <section id="gallery" className="bg-[#ffe4ec] py-20 px-6">
 
   <div className="max-w-7xl mx-auto">
@@ -149,15 +149,24 @@ export default function Home() {
           `}
         >
 
-          <div className="group overflow-hidden rounded-3xl bg-white shadow-xl border border-yellow-200 cursor-pointer">
+          {/* Card */}
+          <div className="group overflow-hidden rounded-3xl bg-white shadow-xl border border-yellow-200 cursor-pointer hover:shadow-2xl transition duration-500">
 
-            {/* Image */}
-            <div className="overflow-hidden">
+            {/* Image Container */}
+            <div className="h-80 bg-pink-50 flex items-center justify-center overflow-hidden p-3">
 
               <img
                 src={item.image}
                 alt={item.title}
-                className="h-80 w-full object-cover group-hover:scale-110 transition duration-500"
+                className="
+                  max-h-full
+                  max-w-full
+                  object-contain
+                  rounded-2xl
+                  group-hover:scale-105
+                  transition
+                  duration-500
+                "
               />
 
             </div>
@@ -247,13 +256,13 @@ export default function Home() {
 
         {/* LOCATION BUTTON */}
         <a
-          href="https://maps.google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-bold shadow-lg"
-        >
-          View Location 🗺️
-        </a>
+  href="https://www.google.com/maps/search/?api=1&query=PinkPhotography+Studio+Cheyyar"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-bold shadow-lg"
+>
+  View Location 🗺️
+</a>
 
         {/* WHATSAPP BUTTON */}
         <a
@@ -265,7 +274,7 @@ export default function Home() {
           Contact Now
         </a>
 	<a
-  href="https://instagram.com/pinkphotography007"
+  href="https://ig.me/m/pinkphotography007"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition"

@@ -8,23 +8,32 @@ export default function BookPage() {
   const [startTime, setStartTime] = useState("");
 
 const handleBook = () => {
-  const message = `🌸✨ New Photoshoot Booking ✨🌸
 
-📸 Customer Details
-👤 Name: ${name || "Not Provided"}
+  const message = `
+*New Photoshoot Booking*
 
-🎭 Session Details
-📌 Event: ${event}
-📅 Date: ${date || "Not Selected"}
-⏰ Start Time: ${startTime || "Not Selected"}
+----------------------------
 
-💌 Request
+*Customer Details*
+- Name: ${name || "Not Provided"}
+
+----------------------------
+
+*Session Details*
+- Event: ${event}
+- Date: ${date || "Not Selected"}
+- Start Time: ${startTime || "Not Selected"}
+
+----------------------------
+
+*Request*
 Please share availability, pricing & confirm booking.
 
-🌷 Thank you,
-PinkPhotography Studio 💛`;
+Thank you,
+*PinkPhotography Studio*
+`;
 
-  const url = "https://wa.me/916374234058?text=" + encodeURIComponent(message);
+  const url = `https://wa.me/916374234058?text=${encodeURIComponent(message)}`;
 
   window.open(url, "_blank");
 };
