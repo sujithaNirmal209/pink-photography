@@ -84,7 +84,7 @@ export default function Home() {
 
   {/* CALL BUTTON */}
   <a
-    href="tel:+916374234058"
+    href="tel:+916382715568"
     className="bg-pink-500 hover:bg-pink-600 text-white transition px-8 py-4 rounded-full text-lg font-semibold shadow-xl"
   >
     Call Now 📞
