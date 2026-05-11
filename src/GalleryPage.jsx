@@ -10,23 +10,33 @@ const photos = {
   ],
 
   couple: [
-    "/m1.jpeg",
-    "/m2.jpeg",
+    "/pre/pre1.jpg",
+    "/pre/pre2.jpg",
+    "/pre/pre3.jpeg",
+    "/pre/pre4.jpeg",
+    "/pre/pre5.jpeg",
+    "/pre/pre6.jpeg",
+    "/pre/pre7.jpeg",
+    "/pre/pre8.jpeg",
   ],
 
   baby: [
-    "/m5.jpeg",
-    "/m3.jpeg",
+    "/babyshower/babys1.jpeg",
+    "/babyshower/babys2.jpeg",
+    "/babyshower/babys3.jpeg",
   ],
 
-  birthday: [
-    "/m4.jpeg",
-    "/m2.jpeg",
+  engagement: [
+    "/egagement/engage1.jpg",
+    "/egagement/engage2.jpg",
+    "/egagement/engage3.jpeg",
   ],
 
   maternity: [
-    "/m1.jpeg",
-    "/m5.jpeg",
+    "/baby/baby2.jpg",
+    "/baby/babys1.jpg",
+    "/baby/babys2.jpg",
+    "/babyshower/babyshow.jpg",
   ],
 };
 
