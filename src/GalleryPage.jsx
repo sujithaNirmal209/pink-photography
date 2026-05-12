@@ -3,10 +3,14 @@ import { useState } from "react";
 
 const photos = {
   wedding: [
-    "/m1.jpeg",
-    "/m2.jpeg",
-    "/m3.jpeg",
-    "/m4.jpeg",
+    "/reception/rec1.jpeg",
+    "/reception/rec2.jpeg",
+    "/reception/rec3.jpeg",
+    "/reception/rec4.jpeg",
+    "/reception/rec5.jpeg",
+    "/reception/r1.jpeg",
+    "/reception/r2.jpeg",
+    "/reception/r3.jpeg",
   ],
 
   couple: [
@@ -18,12 +22,15 @@ const photos = {
     "/pre/pre6.jpeg",
     "/pre/pre7.jpeg",
     "/pre/pre8.jpeg",
+    "/pre/p1.jpeg",
+    "/pre/p2.jpeg",
   ],
 
   baby: [
     "/babyshower/babys1.jpeg",
     "/babyshower/babys2.jpeg",
     "/babyshower/babys3.jpeg",
+    "/baby/b1.jpeg",
   ],
 
   engagement: [
@@ -37,6 +44,8 @@ const photos = {
     "/baby/babys1.jpg",
     "/baby/babys2.jpg",
     "/babyshower/babyshow.jpg",
+    "/babyshower/bs1.jpeg",
+    "/babyshower/bs2.jpeg",
   ],
 };
 
