@@ -431,6 +431,45 @@ export default function Home() {
   </div>
 
 </section>
+
+{/* Working Hours Section */}
+<section className="bg-[#fff0f6] py-16 px-6">
+  <div className="max-w-4xl mx-auto text-center">
+
+    <h2 className="text-4xl font-bold text-[#d63384] mb-6">
+      Working Hours
+    </h2>
+
+    <div className="bg-white shadow-xl rounded-3xl p-8 border-4 border-pink-200">
+
+      <h3 className="text-2xl font-semibold text-[#b5179e] mb-4">
+        Pink Photography Studio
+      </h3>
+
+      {/* All Days Working */}
+      <p className="text-lg text-gray-700 mb-3">
+        📅 <span className="font-semibold">All Days Working</span>
+      </p>
+
+      {/* Opening Time */}
+      <p className="text-lg text-gray-700 mb-3">
+        🕘 Opening Time:
+        <span className="font-semibold text-[#d63384]">
+          {" "}9:00 AM
+        </span>
+      </p>
+
+      {/* Closing Time */}
+      <p className="text-lg text-gray-700">
+        🌙 Closing Time:
+        <span className="font-semibold text-[#d63384]">
+          {" "}7:00 PM
+        </span>
+      </p>
+
+    </div>
+  </div>
+</section>
       {/* Footer */}
       <footer className="bg-[#b03060] text-pink-100 py-6 text-center text-sm">
         © 2026 PinkPhotography Studio • All Rights Reserved
